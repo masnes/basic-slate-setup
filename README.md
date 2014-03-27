@@ -1,8 +1,10 @@
 # Getting Started with Slate
 
 ## Overview
-Credit for most of this config, goes to Jed Northridge, his github 
-page is [jedcn](https://github.com/jedcn)
+Credit for most of this config and tutorial goes to 
+Jed Northridge, his github page is [jedcn](https://github.com/jedcn)
+View his introduction to slate tutorial 
+[here](https://github.com/jedcn/getting-started-with-slate)
 
 If you *have* heard of [Slate](https://github.com/jigish/slate)
 before, but found it inaccessible because it describes itself as:
