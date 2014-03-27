@@ -38,6 +38,8 @@ I've updated Jed's setup to include the h and ; keys for window
 manipulation. ;, which was originally used for window selection, has 
 been remapped to '. 
 
+Bindings used:
+
 <table>
   <tr>
     <td>
