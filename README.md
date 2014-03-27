@@ -2,9 +2,9 @@
 
 ## Overview
 Credit for most of this config and tutorial goes to 
-Jed Northridge, his github page is [jedcn](https://github.com/jedcn)
+Jed Northridge, his github page is [jedcn](https://github.com/jedcn).
 View his excellent introduction to slate tutorial 
-[here](https://github.com/jedcn/getting-started-with-slate)
+[Here](https://github.com/jedcn/getting-started-with-slate).
 
 If you *have* heard of [Slate](https://github.com/jigish/slate)
 before, but found it inaccessible because it describes itself as:
@@ -42,14 +42,7 @@ been remapped to '.
   <tr>
     <td>
        
-    </td>
-    <td>
-      h
-    </td>
-    <td>
-       
-    </td>
-  </tr>
+    <\td>
     <td>
       u
     </td>
@@ -59,8 +52,17 @@ been remapped to '.
     <td>
       o
     </td>
+    <td>
+       
+    <\td>
+    <td>
+       
+    <\td>
   </tr>
     <tr>
+    <td>
+      h
+    <\td>
     <td>
       j
     </td>
@@ -70,8 +72,17 @@ been remapped to '.
     <td>
       l
     </td>
+    <td>
+      ;
+    <\td>
+    <td>
+      '
+    <\td>
   </tr>
     <tr>
+    <td>
+       
+    <\td>
     <td>
       m
     </td>
@@ -81,28 +92,12 @@ been remapped to '.
     <td>
       .
     </td>
-  </tr>
-    <tr>
+    <td>
     <td>
        
-    </td>
-    <td>
-      ;
-    </td>
-    <td>
+    <\td>
        
-    </td>
-  </tr>
-    <tr>
-    <td>
-       
-    </td>
-    <td>
-      '
-    </td>
-    <td>
-       
-    </td>
+    <\td>
   </tr>
 </table>
 
