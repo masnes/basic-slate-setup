@@ -22,6 +22,8 @@ config windowHintsSpread true
 alias full move screenOriginX;screenOriginY screenSizeX;screenSizeY
 alias lefthalf move screenOriginX;screenOriginY screenSizeX/2;screenSizeY
 alias righthalf move screenOriginX+screenSizeX/2;screenOriginY screenSizeX/2;screenSizeY
+alias leftfiveeigths move screenOriginX+screenSizeX;screenOriginY screenSizeX5/8;screenSizeY
+alias rightthreeeigths move screenOriginX+screenSizeX5/8;screenOriginY screenSizeX3/8;screenSizeY
 alias tophalf move screenOriginX;screenOriginY screenSizeX;screenSizeY/2
 alias bottomhalf move screenOriginX;screenOriginY+screenSizeY/2 screenSizeX;screenSizeY/2
 alias topleft corner top-left resize:screenSizeX/2;screenSizeY/2
@@ -32,11 +34,11 @@ alias bottomright corner bottom-right resize:screenSizeX/2;screenSizeY/2
 #
 # The following 'bind' lines allow you to hold "CTRL" and "COMMAND"
 # and then press a third key that corresponds to 9 sections of a
-# square:
+# square, plus the h and ; keys for extra manipulation:
 #
-#   u  i  o
-#   j  k  l
-#   m  ,  .
+#     u  i  o
+#  h  j  k  l  ;
+#     m  ,  .
 #
 bind u:ctrl;cmd  ${topleft}
 bind j:ctrl;cmd  ${lefthalf}
@@ -50,17 +52,19 @@ bind o:ctrl;cmd  ${topright}
 bind l:ctrl;cmd  ${righthalf}
 bind .:ctrl;cmd  ${bottomright}
 
+bind h:ctrl;cmd  ${leftfiveeigths}
+bind ;:ctrl;cmd  ${rightthreeeigths}
 
 
 # You can normally switch between windows on MacOS by pressing
 # COMMAND-TAB. The following Slate configuration provides an
 # alternative:
 #
-# COMMAND + CONTROL + ; will cause Slate to display the letters on the
+# COMMAND + CONTROL + ' will cause Slate to display the letters on the
 # home row above window. Logos will appear on these letters, and you
 # can press the letter to switch to that window.
 #
-bind ;:cmd;ctrl hint ASDFGHJKL
+bind ':cmd;ctrl hint ASDFGHJKL
 
 
 
