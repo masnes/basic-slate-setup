@@ -126,19 +126,19 @@ Bindings used:
   </tr>
     <tr>
     <td>
-      |— 2/3
+      |― 2/3
     <\td>
     <td>
-      |—
+      |―
     </td>
     <td>
       +
     </td>
     <td>
-      —|
+      ―|
     </td>
     <td>
-      1/3 —|
+      1/3 ―|
     <\td>
     <td>
       switch
