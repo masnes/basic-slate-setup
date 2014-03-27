@@ -22,8 +22,8 @@ config windowHintsSpread true
 alias full move screenOriginX;screenOriginY screenSizeX;screenSizeY
 alias lefthalf move screenOriginX;screenOriginY screenSizeX/2;screenSizeY
 alias righthalf move screenOriginX+screenSizeX/2;screenOriginY screenSizeX/2;screenSizeY
-alias leftfiveeigths move screenOriginX+screenSizeX;screenOriginY screenSizeX5/8;screenSizeY
-alias rightthreeeigths move screenOriginX+screenSizeX5/8;screenOriginY screenSizeX3/8;screenSizeY
+alias leftfiveeigths move screenOriginX+screenSizeX;screenOriginY screenSizeX*5/8;screenSizeY
+alias rightthreeeigths move screenOriginX+screenSizeX*5/8;screenOriginY screenSizeX*3/8;screenSizeY
 alias tophalf move screenOriginX;screenOriginY screenSizeX;screenSizeY/2
 alias bottomhalf move screenOriginX;screenOriginY+screenSizeY/2 screenSizeX;screenSizeY/2
 alias topleft corner top-left resize:screenSizeX/2;screenSizeY/2
