@@ -112,7 +112,7 @@ Bindings used:
       |‾
     </td>
     <td>
-      ‾
+      T
     </td>
     <td>
       ‾|
@@ -129,13 +129,13 @@ Bindings used:
       | 2/3
     <\td>
     <td>
-      |
+      |-
     </td>
     <td>
       +
     </td>
     <td>
-       |
+      -|
     </td>
     <td>
       1/3 |
@@ -152,7 +152,7 @@ Bindings used:
       |_
     </td>
     <td>
-      _
+      ⊥
     </td>
     <td>
       _|
