@@ -135,10 +135,10 @@ Bindings used:
       +
     </td>
     <td>
-      |
+       |
     </td>
     <td>
-      | 1/3
+      1/3 |
     <\td>
     <td>
       switch
@@ -166,30 +166,31 @@ Bindings used:
   </tr>
 </table>
 
-The bindings are as follows:
+The bindings described:
 
-* ```COMMAND + CONTROL + u``` = upper left corner
-* ```COMMAND + CONTROL + o``` = upper right corner
-* ```COMMAND + CONTROL + m``` = bottom left corner
-* ```COMMAND + CONTROL + u``` = bottom right corner
+* Corners
+  * ```COMMAND + CONTROL + u``` = upper left corner
+  * ```COMMAND + CONTROL + o``` = upper right corner
+  * ```COMMAND + CONTROL + m``` = bottom left corner
+  * ```COMMAND + CONTROL + u``` = bottom right corner
+
+* Halves
+  * ```COMMAND + CONTROL + i``` = top half of screen
+  * ```COMMAND + CONTROL + l``` = right half of screen
+  * ```COMMAND + CONTROL + ,``` = bottom half of screen
+  * ```COMMAND + CONTROL + j``` = bottom left of screen
+
+* More movement
+  * ```COMMAND + CONTROL + h``` = left 5/8ths of the screen
+  * ```COMMAND + CONTROL + ;``` = right 3/8ths of the screen
+
+* Misc
+  * ```COMMAND + CONTROL + k``` = maximize current window
+  * ```COMMAND + CONTROL + '``` = open window switching interface
+
+* Display switching
+  * ```COMMAND + CONTROL + 1``` = move window to first display
+  * ```COMMAND + CONTROL + 2``` = move window to second display
+  * ```COMMAND + CONTROL + 3``` = move window to third display
 
 
-* ```COMMAND + CONTROL + i``` = top half of screen
-* ```COMMAND + CONTROL + l``` = right half of screen
-* ```COMMAND + CONTROL + ,``` = bottom half of screen
-* ```COMMAND + CONTROL + j``` = bottom left of screen
-
-
-* ```COMMAND + CONTROL + h``` = left 5/8ths of the screen
-* ```COMMAND + CONTROL + ;``` = right 3/8ths of the screen
-
-
-* ```COMMAND + CONTROL + k``` = maximize current window
-
-
-* ```COMMAND + CONTROL + 1``` = move window to first display
-* ```COMMAND + CONTROL + 2``` = move window to second display
-* ```COMMAND + CONTROL + 3``` = move window to third display
-
-
-* ```COMMAND + CONTROL + '``` = open window switching interface
