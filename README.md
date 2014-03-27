@@ -30,7 +30,7 @@ before, but you are using MacOS **and**:
 **The goal of his project is to get you up and running with Slate in 10
 or 15 minutes.**
 
-If you have a working knowledge of slate and just want a basic config then
+Otherwise, if you have a working knowledge of slate and just want a basic config then
 you're welcome to just use what's here. The mappings I'm using are listed 
 below
 
@@ -93,6 +93,69 @@ Bindings used:
     </td>
     <td>
       .
+    </td>
+    <td>
+    <td>
+       
+    <\td>
+       
+    <\td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td>
+       
+    <\td>
+    <td>
+      |‾
+    </td>
+    <td>
+      ‾
+    </td>
+    <td>
+      ‾|
+    </td>
+    <td>
+       
+    <\td>
+    <td>
+       
+    <\td>
+  </tr>
+    <tr>
+    <td>
+      | 2/3
+    <\td>
+    <td>
+      |
+    </td>
+    <td>
+      +
+    </td>
+    <td>
+      |
+    </td>
+    <td>
+      | 1/3
+    <\td>
+    <td>
+      switch
+    <\td>
+  </tr>
+    <tr>
+    <td>
+       
+    <\td>
+    <td>
+      |_
+    </td>
+    <td>
+      _
+    </td>
+    <td>
+      _|
     </td>
     <td>
     <td>
