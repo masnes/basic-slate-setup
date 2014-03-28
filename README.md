@@ -10,6 +10,8 @@ View his excellent introduction to slate tutorial
 you're welcome to just use what's here. The mappings I'm using are listed 
 below**
 
+<hr></hr>
+
 Otherwise, if you *have* heard of [Slate](https://github.com/jigish/slate)
 before, but found it inaccessible because it describes itself as:
 
