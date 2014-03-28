@@ -184,7 +184,7 @@ The bindings described:
   * ```COMMAND + CONTROL + h``` = left 5/8ths of the screen
   * ```COMMAND + CONTROL + ;``` = right 3/8ths of the screen
 
-* Misc
+* Other important commands
   * ```COMMAND + CONTROL + k``` = maximize current window
   * ```COMMAND + CONTROL + '``` = open window switching interface
 
