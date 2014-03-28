@@ -6,7 +6,11 @@ Jed Northridge, his github page is [jedcn](https://github.com/jedcn).
 View his excellent introduction to slate tutorial 
 [Here](https://github.com/jedcn/getting-started-with-slate).
 
-If you *have* heard of [Slate](https://github.com/jigish/slate)
+**If you have a basic working knowledge of slate and just want a basic config then
+you're welcome to just use what's here. The mappings I'm using are listed 
+below**
+
+Otherwise, if you *have* heard of [Slate](https://github.com/jigish/slate)
 before, but found it inaccessible because it describes itself as:
 
 > a bit daunting to get configured
@@ -25,14 +29,7 @@ before, but you are using MacOS **and**:
   want and have to start over again, or perhaps you "go past" the one
   you want and have to loop through again.
 
-**Then you should read [Jed's Tutorial](https://github.com/jedcn/getting-started-with-slate)!**
-
-**The goal of his project is to get you up and running with Slate in 10
-or 15 minutes.**
-
-Otherwise, if you have a working knowledge of slate and just want a basic config then
-you're welcome to just use what's here. The mappings I'm using are listed 
-below
+**Then you should read [Jed's Tutorial](https://github.com/jedcn/getting-started-with-slate) before continuing here!** He'll get you up and running in 15 minutes or so.
 
 I've updated Jed's setup to include the h and ; keys for window 
 manipulation. ;, which was originally used for window selection, has 
