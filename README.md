@@ -146,7 +146,7 @@ cmd + ctrl
   </tr>
     <tr>
     <td>
-      | - 2/3
+      | - 5/8
     <\td>
     <td>
       | -
@@ -158,7 +158,7 @@ cmd + ctrl
       - |
     </td>
     <td>
-      1/3 - |
+      3/8 - |
     <\td>
     <td>
       switch
