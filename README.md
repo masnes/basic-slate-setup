@@ -29,7 +29,11 @@ before, but you are using MacOS **and**:
   want and have to start over again, or perhaps you "go past" the one
   you want and have to loop through again.
 
-**Then you should read [Jed's Tutorial](https://github.com/jedcn/getting-started-with-slate) before continuing here!** He'll get you up and running in 15 minutes or so.
+**Then you should read [Jed's Tutorial](https://github.com/jedcn/getting-started-with-slate) before continuing here!** 
+
+He'll get you up and running in 15 minutes or so.
+
+<hr></hr>
 
 I've updated Jed's setup to include the h and ; keys for window 
 manipulation. ;, which was originally used for window selection, has 
