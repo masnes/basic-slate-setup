@@ -43,7 +43,7 @@ been remapped to '.
 
 I also changed the window switching hinting mechanism 
 so it uses keys on the right hand. I feel this is more convenient,
-since you'll be hitting ctrl + cmd with your left hand. 
+since you'll be hitting ctrl + cmd with your left. 
 
 Bindings used:
 
