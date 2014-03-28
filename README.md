@@ -37,9 +37,8 @@ He'll get you up and running in 15 minutes or so.
 
 <hr></hr>
 
-I've updated Jed's setup to include the h and ; keys for window
-manipulation. ;, which was originally used for window selection, has
-been remapped to '. 
+I've updated Jed's setup to include the h and ' keys for window
+manipulation. 
 
 I also changed the window switching hinting mechanism 
 so it uses keys on the right hand. I feel this is more convenient,
@@ -165,10 +164,10 @@ cmd + ctrl
       - |
     </td>
     <td>
-      3/8 - |
+      switch
     <\td>
     <td>
-      switch
+      3/8 - |
     <\td>
   </tr>
     <tr>
@@ -197,7 +196,7 @@ The bindings described:
 
 * Misc
   * ```COMMAND + CONTROL + k``` = maximize current window
-  * ```COMMAND + CONTROL + '``` = open window switching interface
+  * ```COMMAND + CONTROL + ;``` = open window switching interface
 
 * Corners
   * ```COMMAND + CONTROL + u``` = upper left corner
@@ -213,7 +212,7 @@ The bindings described:
 
 * More movement
   * ```COMMAND + CONTROL + h``` = left 5/8ths of the screen
-  * ```COMMAND + CONTROL + ;``` = right 3/8ths of the screen
+  * ```COMMAND + CONTROL + '``` = right 3/8ths of the screen
 
 * Display switching
   * ```COMMAND + CONTROL + 1``` = move window to first display

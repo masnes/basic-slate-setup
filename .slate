@@ -53,7 +53,7 @@ bind l:ctrl;cmd  ${righthalf}
 bind .:ctrl;cmd  ${bottomright}
 
 bind h:ctrl;cmd  ${leftfiveeigths}
-bind ;:ctrl;cmd  ${rightthreeeigths}
+bind ':ctrl;cmd  ${rightthreeeigths}
 
 
 # You can normally switch between windows on MacOS by pressing
@@ -64,7 +64,7 @@ bind ;:ctrl;cmd  ${rightthreeeigths}
 # home row above window. Logos will appear on these letters, and you
 # can press the letter to switch to that window.
 #
-bind ':cmd;ctrl hint HJKLGUIOPNM
+bind ;:cmd;ctrl hint HJKLGUIOPNM
 
 
 
