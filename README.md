@@ -135,7 +135,7 @@ cmd + ctrl
 
     <\td>
     <td>
-      |
+      | ̅ ̅ 
     </td>
     <td>
       T
