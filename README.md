@@ -1,4 +1,4 @@
-# Getting Started with Slate
+# A Basic Slate Setup
 
 ## Overview
 Credit for most of this config and tutorial goes to
