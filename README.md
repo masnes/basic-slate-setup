@@ -1,13 +1,13 @@
 # Getting Started with Slate
 
 ## Overview
-Credit for most of this config and tutorial goes to 
+Credit for most of this config and tutorial goes to
 Jed Northridge, his github page is [jedcn](https://github.com/jedcn).
-View his excellent introduction to slate tutorial 
+View his excellent introduction to slate tutorial
 [Here](https://github.com/jedcn/getting-started-with-slate).
 
 **If you have a basic working knowledge of slate and just want a basic config then
-you're welcome to just use what's here. The mappings I'm using are listed 
+you're welcome to just use what's here. The mappings I'm using are listed
 below**
 
 <hr></hr>
@@ -31,15 +31,15 @@ before, but you are using MacOS **and**:
   want and have to start over again, or perhaps you "go past" the one
   you want and have to loop through again.
 
-**Then you should read [Jed's Tutorial](https://github.com/jedcn/getting-started-with-slate) before continuing here!** 
+**Then you should read [Jed's Tutorial](https://github.com/jedcn/getting-started-with-slate) before continuing here!**
 
 He'll get you up and running in 15 minutes or so.
 
 <hr></hr>
 
-I've updated Jed's setup to include the h and ; keys for window 
-manipulation. ;, which was originally used for window selection, has 
-been remapped to '. 
+I've updated Jed's setup to include the h and ; keys for window
+manipulation. ;, which was originally used for window selection, has
+been remapped to '.
 
 Bindings used:
 
@@ -66,7 +66,7 @@ cmd + ctrl
 <table>
   <tr>
     <td>
-       
+
     <\td>
     <td>
       u
@@ -78,10 +78,10 @@ cmd + ctrl
       o
     </td>
     <td>
-       
+
     <\td>
     <td>
-       
+
     <\td>
   </tr>
     <tr>
@@ -106,7 +106,7 @@ cmd + ctrl
   </tr>
     <tr>
     <td>
-       
+
     <\td>
     <td>
       m
@@ -119,9 +119,9 @@ cmd + ctrl
     </td>
     <td>
     <td>
-       
+
     <\td>
-       
+
     <\td>
   </tr>
 </table>
@@ -129,10 +129,10 @@ cmd + ctrl
 <table>
   <tr>
     <td>
-       
+
     <\td>
     <td>
-      | ̅ ̅
+      |
     </td>
     <td>
       T
@@ -141,10 +141,10 @@ cmd + ctrl
        ̅ ̅ |
     </td>
     <td>
-       
+
     <\td>
     <td>
-       
+
     <\td>
   </tr>
     <tr>
@@ -169,7 +169,7 @@ cmd + ctrl
   </tr>
     <tr>
     <td>
-       
+
     <\td>
     <td>
       |_
@@ -182,9 +182,9 @@ cmd + ctrl
     </td>
     <td>
     <td>
-       
+
     <\td>
-       
+
     <\td>
   </tr>
 </table>
