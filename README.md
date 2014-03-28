@@ -202,6 +202,7 @@ The bindings described:
   * ```COMMAND + CONTROL + u``` = upper left corner
   * ```COMMAND + CONTROL + o``` = upper right corner
   * ```COMMAND + CONTROL + m``` = bottom left corner
+  * ```COMMAND + CONTROL + n``` = bottom left corner (n instead of m is an easy typo)
   * ```COMMAND + CONTROL + u``` = bottom right corner
 
 * Halves

@@ -38,11 +38,13 @@ alias bottomright corner bottom-right resize:screenSizeX/2;screenSizeY/2
 #
 #     u  i  o
 #  h  j  k  l  ;
-#     m  ,  .
+#  n  m  ,  .
 #
 bind u:ctrl;cmd  ${topleft}
 bind j:ctrl;cmd  ${lefthalf}
 bind m:ctrl;cmd  ${bottomleft}
+# It's easy to misclick n instead of m
+bind n:ctrl;cmd  ${bottomleft}
 
 bind i:ctrl;cmd  ${tophalf}
 bind k:ctrl;cmd  ${full}
