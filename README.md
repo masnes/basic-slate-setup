@@ -39,7 +39,9 @@ He'll get you up and running in 15 minutes or so.
 
 I've updated Jed's setup to include the h and ; keys for window
 manipulation. ;, which was originally used for window selection, has
-been remapped to '.
+been remapped to '. I also changed the window switching hinting mechanism 
+so it uses keys on the right hand. I feel this is more convenient,
+since you'll be hitting ctrl + cmd with your left hand. 
 
 Bindings used:
 
