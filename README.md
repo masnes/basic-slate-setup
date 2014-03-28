@@ -42,6 +42,7 @@ Bindings used:
 
 **Moving applications to different displays:**
 
+cmd + ctrl
 <table>
   <tr>
     <td>
@@ -58,6 +59,7 @@ Bindings used:
 
 **Moving applications within a display**
 
+cmd + ctrl
 <table>
   <tr>
     <td>
