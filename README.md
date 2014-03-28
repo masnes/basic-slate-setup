@@ -40,6 +40,24 @@ been remapped to '.
 
 Bindings used:
 
+**Moving applications to different displays:**
+
+<table>
+  <tr>
+    <td>
+      1
+    </td>
+    <td>
+      2
+    </td>
+    <td>
+      3
+    </td>
+  </tr>
+</table>
+
+**Moving applications within a display**
+
 <table>
   <tr>
     <td>
