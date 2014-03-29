@@ -135,13 +135,13 @@ cmd + ctrl
 
     <\td>
     <td>
-      | ̅ ̅ 
+      ⌜
     </td>
     <td>
-      T
+      ⊤ 
     </td>
     <td>
-       ̅ ̅ |
+      ⌝
     </td>
     <td>
 
@@ -152,22 +152,22 @@ cmd + ctrl
   </tr>
     <tr>
     <td>
-      | - 5/8
+      ⊢ 5/8
     <\td>
     <td>
-      | -
+      ⊢
     </td>
     <td>
       +
     </td>
     <td>
-      - |
+      ⊣
     </td>
     <td>
       switch
     <\td>
     <td>
-      3/8 - |
+      3/8 ⊣
     <\td>
   </tr>
     <tr>
@@ -175,13 +175,13 @@ cmd + ctrl
 
     <\td>
     <td>
-      |_
+      ⌞
     </td>
     <td>
       ⊥
     </td>
     <td>
-      _|
+      ⌟
     </td>
     <td>
     <td>
