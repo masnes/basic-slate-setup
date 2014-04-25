@@ -196,7 +196,7 @@ The bindings described:
 
 * Misc
   * ```COMMAND + CONTROL + k``` = maximize current window
-  * ```COMMAND + CONTROL + ,``` = open window switching interface
+  * ```COMMAND + CONTROL + '``` = open window switching interface
 
 * Corners
   * ```COMMAND + CONTROL + u``` = upper left corner
@@ -208,12 +208,12 @@ The bindings described:
 * Halves
   * ```COMMAND + CONTROL + i``` = top half of screen
   * ```COMMAND + CONTROL + l``` = right half of screen
-  * ```COMMAND + CONTROL + ;``` = bottom half of screen
+  * ```COMMAND + CONTROL + ,``` = bottom half of screen
   * ```COMMAND + CONTROL + j``` = bottom left of screen
 
 * More movement
   * ```COMMAND + CONTROL + h``` = left 5/8ths of the screen
-  * ```COMMAND + CONTROL + '``` = right 3/8ths of the screen
+  * ```COMMAND + CONTROL + ;``` = right 3/8ths of the screen
 
 * Display switching
   * ```COMMAND + CONTROL + 1``` = move window to first display
