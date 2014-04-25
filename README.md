@@ -164,10 +164,10 @@ cmd + ctrl
       ⊣
     </td>
     <td>
-      switch
+      3/8 ⊣
     <\td>
     <td>
-      3/8 ⊣
+      switch
     <\td>
   </tr>
     <tr>
