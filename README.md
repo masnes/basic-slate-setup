@@ -1,54 +1,228 @@
 # A Basic Slate Setup
 
 ## Overview
-Credit for most of this config and tutorial goes to
+Credit for much of this config and tutorial goes to
 Jed Northridge, his github page is [jedcn](https://github.com/jedcn).
 View his excellent introduction to slate tutorial
-[Here](https://github.com/jedcn/getting-started-with-slate).
+[Here](https://github.com/jedcn/getting-started-with-slate). 
 
-**If you have a basic working knowledge of slate and just want a basic config then
-you're welcome to just use what's here. The mappings I'm using are listed
-below**
+**What Is Slate?**
 
-<hr></hr>
+Slate is a window manager for Mac OSX which allows you to use your
+keyboard to manage your windows. 
 
-Otherwise, if you *have* heard of [Slate](https://github.com/jigish/slate)
-before, but found it inaccessible because it describes itself as:
+**My Config**
 
-> a bit daunting to get configured
-
-Or, if you *have not* heard of [Slate](https://github.com/jigish/slate)
-before, but you are using MacOS **and**:
-
-* You find it slightly irritating whenever you manually adjust the
-  height and width of windows using a mouse
-
-* You find yourself with a two display setup and you wish you could
-  press a button and have an application jump between displays
-
-* You find yourself pressing COMMAND + CONTROL to switch between
-  applications, but sometimes you let go before you reach the one you
-  want and have to start over again, or perhaps you "go past" the one
-  you want and have to loop through again.
-
-**Then you should read [Jed's Tutorial](https://github.com/jedcn/getting-started-with-slate) before continuing here!**
-
-He'll get you up and running in 15 minutes or so.
-
-<hr></hr>
-
-I've updated Jed's setup to include the h and ' keys for window
-manipulation. 
-
-I also changed the window switching hinting mechanism 
-so it uses keys on the right hand. I feel this is more convenient,
-since you'll be hitting ctrl + cmd with your left. 
+The goal of this config is to provide a window manager setup which 
+is simple and intuitive, yet powerful.
 
 Bindings used:
 
+**Switching between open applications**
+
+cmd + ctrl &:
+
+<table>
+  <tr> 
+    <td>
+
+    </td>
+    <td>
+       i
+    </td>
+    <td>
+
+    </td>
+  </tr>
+  <tr>
+    <td>
+      j
+    </td>
+    <td>
+      k
+    </td>
+    <td>
+      l
+    </td>
+  </tr>
+  <tr>
+    <td>
+       
+    </td>
+    <td>
+       ,
+    </td>
+    <td>
+       
+    </td>
+  </tr>
+</table>
+
+Switch direction:
+
+<table>
+  <tr> 
+    <td>
+
+    </td>
+    <td>
+      ↑
+    </td>
+    <td>
+
+    </td>
+  </tr>
+  <tr>
+    <td>
+     ← 
+    </td>
+    <td>
+      ⊙
+    </td>
+    <td>
+      →
+    </td>
+  </tr>
+  <tr>
+    <td>
+      
+    </td>
+    <td>
+      ↓
+    </td>
+    <td>
+
+    </td>
+  </tr>
+</table>
+
+The k key shows whatever window is behind the current one.  The rest of the keys listed move focus in the arrow-indicated direction.
+
+cmd + ctrl &:
+<table>
+  <tr>
+    <td>
+     ' 
+    </td>
+  </tr>
+</table>
+
+to bring up a prompt that will allow you to switch to any window you have open.
+
+
+**Moving applications within a display**
+
+cmd + ctrl + alt &:
+<table>
+  <tr>
+    <td>
+
+    </td>
+    <td>
+      u
+    </td>
+    <td>
+      i
+    </td>
+    <td>
+      o
+    </td>
+    <td>
+
+    </td>
+  </tr>
+    <tr>
+    <td>
+      h
+    </td>
+    <td>
+      j
+    </td>
+    <td>
+      k
+    </td>
+    <td>
+      l
+    </td>
+    <td>
+      ;
+    </td>
+  </tr>
+    <tr>
+    <td>
+
+    </td>
+    <td>
+      m
+    </td>
+    <td>
+      ,
+    </td>
+    <td>
+      .
+    </td>
+    <td>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td>
+
+    </td>
+    <td>
+      ⌜
+    </td>
+    <td>
+      ⊤ 
+    </td>
+    <td>
+      ⌝
+    </td>
+    <td>
+
+    </td>
+  </tr>
+    <tr>
+    <td>
+      ⊢ 5/8
+    </td>
+    <td>
+      ⊢
+    </td>
+    <td>
+      +
+    </td>
+    <td>
+      ⊣
+    </td>
+    <td>
+      3/8 ⊣
+    </td>
+  </tr>
+  <tr>
+    <td>
+
+    </td>
+    <td>
+      ⌞
+    </td>
+    <td>
+      ⊥
+    </td>
+    <td>
+      ⌟
+    </td>
+    <td>
+
+    </td>
+  </tr>
+</table>
+
 **Moving applications to different displays:**
 
-cmd + ctrl
+cmd + ctrl + alt &:
 <table>
   <tr>
     <td>
@@ -63,157 +237,40 @@ cmd + ctrl
   </tr>
 </table>
 
-**Moving applications within a display**
 
-cmd + ctrl
-<table>
-  <tr>
-    <td>
+*The bindings described:*
 
-    <\td>
-    <td>
-      u
-    </td>
-    <td>
-      i
-    </td>
-    <td>
-      o
-    </td>
-    <td>
+* Switching Between Windows
+  * Directional
+    * ```COMMAND + ALT + i``` = quick-switch to window above the current one
+    * ```COMMAND + ALT + ,``` = quick-switch to window below the current one
+    * ```COMMAND + ALT + j``` = quick-switch to window left the current one
+    * ```COMMAND + ALT + l``` = quick-switch to window right the current one
 
-    <\td>
-    <td>
+  * Misc
+    * ```COMMAND + ALT + '``` = open window switching interface
+    * ```COMMAND + ALT + k``` = quick-switch to window behind the current one
 
-    <\td>
-  </tr>
-    <tr>
-    <td>
-      h
-    <\td>
-    <td>
-      j
-    </td>
-    <td>
-      k
-    </td>
-    <td>
-      l
-    </td>
-    <td>
-      ;
-    <\td>
-    <td>
-      '
-    <\td>
-  </tr>
-    <tr>
-    <td>
+* Moving Windows
+  * Misc
+    * ```COMMAND + CONTROL + ALT + k``` = maximize current window
 
-    <\td>
-    <td>
-      m
-    </td>
-    <td>
-      ,
-    </td>
-    <td>
-      .
-    </td>
-    <td>
-    <td>
+  * Corners
+    * ```COMMAND + CONTROL + ALT + u``` = move to upper left corner
+    * ```COMMAND + CONTROL + ALT + o``` = move to upper right corner
+    * ```COMMAND + CONTROL + ALT + m``` = move to bottom left corner
+    * ```COMMAND + CONTROL + ALT + n``` = move to bottom left corner (n instead of m is an easy typo)
+    * ```COMMAND + CONTROL + ALT + u``` = move to bottom right corner
 
-    <\td>
+  * Halves
+    * ```COMMAND + CONTROL + ALT + i``` = move to top half of screen
+    * ```COMMAND + CONTROL + ALT + l``` = move to right half of screen
+    * ```COMMAND + CONTROL + ALT + ,``` = move to bottom half of screen
+    * ```COMMAND + CONTROL + ALT + j``` = move to bottom left of screen
 
-    <\td>
-  </tr>
-</table>
-
-<table>
-  <tr>
-    <td>
-
-    <\td>
-    <td>
-      ⌜
-    </td>
-    <td>
-      ⊤ 
-    </td>
-    <td>
-      ⌝
-    </td>
-    <td>
-
-    <\td>
-    <td>
-
-    <\td>
-  </tr>
-    <tr>
-    <td>
-      ⊢ 5/8
-    <\td>
-    <td>
-      ⊢
-    </td>
-    <td>
-      +
-    </td>
-    <td>
-      ⊣
-    </td>
-    <td>
-      3/8 ⊣
-    <\td>
-    <td>
-      switch
-    <\td>
-  </tr>
-    <tr>
-    <td>
-
-    <\td>
-    <td>
-      ⌞
-    </td>
-    <td>
-      ⊥
-    </td>
-    <td>
-      ⌟
-    </td>
-    <td>
-    <td>
-
-    <\td>
-
-    <\td>
-  </tr>
-</table>
-
-The bindings described:
-
-* Misc
-  * ```COMMAND + CONTROL + k``` = maximize current window
-  * ```COMMAND + CONTROL + '``` = open window switching interface
-
-* Corners
-  * ```COMMAND + CONTROL + u``` = upper left corner
-  * ```COMMAND + CONTROL + o``` = upper right corner
-  * ```COMMAND + CONTROL + m``` = bottom left corner
-  * ```COMMAND + CONTROL + n``` = bottom left corner (n instead of m is an easy typo)
-  * ```COMMAND + CONTROL + u``` = bottom right corner
-
-* Halves
-  * ```COMMAND + CONTROL + i``` = top half of screen
-  * ```COMMAND + CONTROL + l``` = right half of screen
-  * ```COMMAND + CONTROL + ,``` = bottom half of screen
-  * ```COMMAND + CONTROL + j``` = bottom left of screen
-
-* More movement
-  * ```COMMAND + CONTROL + h``` = left 5/8ths of the screen
-  * ```COMMAND + CONTROL + ;``` = right 3/8ths of the screen
+  * More movement
+    * ```COMMAND + CONTROL + ALT + h``` = move to left 5/8ths of the screen
+    * ```COMMAND + CONTROL + ALT + ;``` = move to right 3/8ths of the screen
 
 * Display switching
   * ```COMMAND + CONTROL + 1``` = move window to first display

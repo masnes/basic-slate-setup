@@ -31,8 +31,11 @@ alias topright corner top-right resize:screenSizeX/2;screenSizeY/2
 alias bottomleft corner bottom-left resize:screenSizeX/2;screenSizeY/2
 alias bottomright corner bottom-right resize:screenSizeX/2;screenSizeY/2
 
+# easter egg
+alias smallcenter move screenOriginX+screenSizeX/4;screenOriginY+screenSizeY/4 screenSizeX/2;screenSizeY/2
+
 #
-# The following 'bind' lines allow you to hold "CTRL" and "COMMAND"
+# The following 'bind' lines allow you to hold "ALT" and "COMMAND"
 # and then press a third key that corresponds to 9 sections of a
 # square, plus the h and ; keys for extra manipulation:
 #
@@ -40,22 +43,25 @@ alias bottomright corner bottom-right resize:screenSizeX/2;screenSizeY/2
 #  h  j  k  l  ;
 #  n  m  ,  .
 #
-bind u:ctrl;cmd  ${topleft}
-bind j:ctrl;cmd  ${lefthalf}
-bind m:ctrl;cmd  ${bottomleft}
+bind u:ctrl;alt;cmd  ${topleft}
+bind j:ctrl;alt;cmd  ${lefthalf}
+bind m:ctrl;alt;cmd  ${bottomleft}
 # It's easy to misclick n instead of m
-bind n:ctrl;cmd  ${bottomleft}
+bind n:ctrl;alt;cmd  ${bottomleft}
 
-bind i:ctrl;cmd  ${tophalf}
-bind k:ctrl;cmd  ${full}
-bind ,:ctrl;cmd  ${bottomhalf}
+bind i:ctrl;alt;cmd  ${tophalf}
+bind k:ctrl;alt;cmd  ${full}
+bind ,:ctrl;alt;cmd  ${bottomhalf}
 
-bind o:ctrl;cmd  ${topright}
-bind l:ctrl;cmd  ${righthalf}
-bind .:ctrl;cmd  ${bottomright}
+bind o:ctrl;alt;cmd  ${topright}
+bind l:ctrl;alt;cmd  ${righthalf}
+bind .:ctrl;alt;cmd  ${bottomright}
 
-bind h:ctrl;cmd  ${leftfiveeigths}
-bind ;:ctrl;cmd  ${rightthreeeigths}
+bind h:ctrl;alt;cmd  ${leftfiveeigths}
+bind ;:ctrl;alt;cmd  ${rightthreeeigths}
+
+# easter egg:
+bind f:ctrl;alt;cmd ${smallcenter}
 
 
 # You can normally switch between windows on MacOS by pressing
@@ -66,15 +72,26 @@ bind ;:ctrl;cmd  ${rightthreeeigths}
 # home row above window. Logos will appear on these letters, and you
 # can press the letter to switch to that window.
 #
-bind ':cmd;ctrl hint HJKLGUIOPNM
+bind ':cmd;ctrl hint ASDFHJKLGUIOPNM
 
 
-
+# Focus bindings - use these to focus on adjacent windows
+#     i   
+#  j  k  l
+#     ,   
 #
+bind j:ctrl;cmd  focus left
+bind l:ctrl;cmd  focus right
+bind i:ctrl;cmd  focus up
+bind k:ctrl;cmd  focus behind
+bind ,:ctrl;cmd  focus down
+
+
+
 # These bindings make it so that you can more easily move windows to
-# other displays. If you have two displays, you can press CTRL + CMD +
+# other displays. If you have two displays, you can press ALT + CMD +
 # 2 to cause the current window to be moved, and appear full screen,
-# on your second display. If you subsequently press CTRL + CMD + 1,
+# on your second display. If you subsequently press ALT + CMD + 1,
 # the window which was just moved to your second display will come
 # back to your first display
 #
