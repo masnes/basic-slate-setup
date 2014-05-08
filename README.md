@@ -9,7 +9,7 @@ View his excellent introduction to slate tutorial
 **What Is Slate?**
 
 Slate is a window manager for Mac OSX which allows you to use your
-keyboard to manage your windows. 
+keyboard to move, resize and switch between windows. 
 
 **My Config**
 
@@ -238,7 +238,7 @@ cmd + ctrl + alt &:
 </table>
 
 
-*The bindings described:*
+**Full description of bindings**
 
 * Switching Between Windows
   * Directional
